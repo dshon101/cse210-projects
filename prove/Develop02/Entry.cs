@@ -8,6 +8,8 @@ public class Entry
     public string _entryText;
     public void Display()
     {
-
+        Console.WriteLine($"\nDate: {_date}");
+        Console.WriteLine($"{_promptText}");
+        Console.WriteLine($"{_entryText}");
     }
 }
